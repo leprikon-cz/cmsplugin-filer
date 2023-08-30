@@ -24,3 +24,4 @@ pep8.txt
 .tox/*
 .coverage
 htmlcov/*
+venv/

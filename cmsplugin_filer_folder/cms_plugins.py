@@ -44,7 +44,7 @@ class FilerFolderPlugin(CMSPluginBase):
             return qs_files.filter(is_public=True)
 
     def get_children(self, folder):
-        return folder.get_children()
+        return folder.children.all()
 
     def render(self, context, instance, placeholder):
         user = context['request'].user
