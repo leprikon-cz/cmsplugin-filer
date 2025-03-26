@@ -22,7 +22,7 @@ setup(
         'Topic :: Internet :: WWW/HTTP',
     ],
     install_requires=[
-        "Django >= 3, <4",
+        "Django >= 3, <5",
         "django-filer >= 1.2.0",
 
         "django-cms >= 3.4",
